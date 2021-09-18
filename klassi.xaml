@@ -1,0 +1,18 @@
+﻿<Page x:Class="WpfApp10.Pages.klassi"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp10.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="400"
+      Title="klassi">
+
+    <Grid Background="#FFF7AFAF" >
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="107,237,0,0" VerticalAlignment="Top" Width="155" Height="50" BorderBrush="White" RenderTransformOrigin="0.597,0.757" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="45" Margin="107,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155"/>
+        <TextBox HorizontalAlignment="Left" Height="41" Margin="107,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" TextChanged="TextBox_TextChanged"/>
+        <ComboBox x:Name="ComboBoxGroup" HorizontalAlignment="Left" Margin="107,169,0,0" VerticalAlignment="Top" Width="155" Height="47"/>
+
+    </Grid>
+</Page>
